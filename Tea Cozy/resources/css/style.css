@@ -1,0 +1,134 @@
+html {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  opacity: 0.9
+  text-align:center;
+}
+body {
+  margin:0;
+  padding:0;
+}
+.logo {
+  display: inline-block;
+}
+img {
+  display: inline-block;
+  height: 50px;
+}
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  padding-left: 10px;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+
+}
+header a {
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica;
+  opacity: 0.9
+}
+nav {
+  display: flex;
+  padding-right: 20px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 15px;
+}
+.content {
+  display: flex;
+  padding-top: 69px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("./images/img-mission-background.jpg")
+}
+.title1 {
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+}
+#tea {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  display: block;
+}
+.title2 {
+  text-align: center;
+}
+.type {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.type img {
+  height: 200px;
+  width: 300px;
+}
+.item {
+  padding: 10px;
+  justify-content: center;
+}
+.item h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+#location {
+  display: flex;
+  height: 550px;
+  padding-top:10px;
+  background-image: url("./images/img-locations-background.jpg");
+  width: 1200px;
+  flex-wrap:wrap;
+
+  justify-content: center;
+}
+.detail {
+  display: flex;
+  padding-top: 0px;
+  height:250px;
+  margin-bottom:150px;
+}
+.address {
+  display: block;
+  width: 300px;
+  height: 250px;
+  margin: 0px 20px;
+  background-color: black;
+  text-align: center;
+
+}
+#location h2 {
+  width: 1200px;
+  height: 57.6px;
+  text-align: center;
+  padding-top:70px;
+  margin:0px;
+}
+.contact h2,
+.contact h5 {
+  text-align: center;
+}
+.contact {
+  width: 1200px;
+  height: 200px;
+}
+footer {
+  padding-left: 20px;
+}
